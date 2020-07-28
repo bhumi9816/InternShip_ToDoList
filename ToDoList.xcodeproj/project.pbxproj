@@ -15,6 +15,8 @@
 		D4AF7C9024A409D200FCB04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AF7C8E24A409D200FCB04D /* LaunchScreen.storyboard */; };
 		D4AF7C9B24A409D200FCB04D /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7C9A24A409D200FCB04D /* ToDoListTests.swift */; };
 		D4AF7CA624A409D300FCB04D /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7CA524A409D300FCB04D /* ToDoListUITests.swift */; };
+		D4AF7CB424A4196000FCB04D /* ListEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7CB324A4196000FCB04D /* ListEntryViewController.swift */; };
+		D4AF7CB624A4197700FCB04D /* DisplayTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF7CB524A4197700FCB04D /* DisplayTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D4AF7CA124A409D300FCB04D /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AF7CA524A409D300FCB04D /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		D4AF7CA724A409D300FCB04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AF7CB324A4196000FCB04D /* ListEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntryViewController.swift; sourceTree = "<group>"; };
+		D4AF7CB524A4197700FCB04D /* DisplayTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D4AF7C8C24A409D200FCB04D /* Assets.xcassets */,
 				D4AF7C8E24A409D200FCB04D /* LaunchScreen.storyboard */,
 				D4AF7C9124A409D200FCB04D /* Info.plist */,
+				D4AF7CB324A4196000FCB04D /* ListEntryViewController.swift */,
+				D4AF7CB524A4197700FCB04D /* DisplayTaskViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AF7CB624A4197700FCB04D /* DisplayTaskViewController.swift in Sources */,
 				D4AF7C8824A409CF00FCB04D /* ViewController.swift in Sources */,
+				D4AF7CB424A4196000FCB04D /* ListEntryViewController.swift in Sources */,
 				D4AF7C8424A409CF00FCB04D /* AppDelegate.swift in Sources */,
 				D4AF7C8624A409CF00FCB04D /* SceneDelegate.swift in Sources */,
 			);
